@@ -22,21 +22,21 @@ function preload() {
   for (let lvl of levels) {
     levelBackgrounds.push(loadImage(lvl.bgImg));
   }
-  worldimg = loadImage("Images/worldBackground.png"); //[1]
-  startimg = loadImage("assets/introImage.png"); //
-  characterimg = loadImage("assets/characterBackground.png"); //
-  tryagainimg = loadImage("assets/tryagainScreen.png");
+  worldimg = loadImage("assets/Images/worldBackground.png"); //[1]
+  startimg = loadImage("assets/Images/introImage.png"); //
+  characterimg = loadImage("assets/Images/characterBackground.png"); //
+  tryagainimg = loadImage("assets/Images/tryagainScreen.png");
 
-  playerImages[0] = loadImage("assets/player1.png"); //
-  playerImages[1] = loadImage("assets/player2.png"); //
-  playerImages[2] = loadImage("assets/player3.png"); //
+  playerImages[0] = loadImage("assets/Images/player1.png"); //
+  playerImages[1] = loadImage("assets/Images/player2.png"); //
+  playerImages[2] = loadImage("assets/Images/player3.png"); //
 
-  levelSelectBackgrounds.push(loadImage("assets/clothinglevels.png")); //
-  levelSelectBackgrounds.push(loadImage("assets/booklevels.png")); //
-  levelSelectBackgrounds.push(loadImage("assets/flowerlevels.png")); //
-  levelSelectBackgrounds.push(loadImage("assets/coffeelevels.png")); //
+  levelSelectBackgrounds.push(loadImage("assets/Images/clothinglevels.png")); //
+  levelSelectBackgrounds.push(loadImage("assets/Images/booklevels.png")); //
+  levelSelectBackgrounds.push(loadImage("assets/Images/flowerlevels.png")); //
+  levelSelectBackgrounds.push(loadImage("assets/Images/coffeelevels.png")); //
 
-  lockImg = loadImage("assets/pixel_lock.png"); //
+  lockImg = loadImage("assets/Images/pixel_lock.png"); //
 }
 
 function draw() {
