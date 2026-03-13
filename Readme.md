@@ -38,10 +38,10 @@ How to Run the Game:
 
 How to play the game:
 
-1. Start Screen: Press SPACE to start the game
-2. Character selection: Press 1, Press 2, Press 3 to choose a character
-3. Exploring the world: move around with Arrow keys to walk around the building
-4. When the enter prompt appear as the character is near door entrance. Press “ENTER” to go inside the store
+1. Start Screen: Press SPACE bar to start the game.
+2. Character selection: Press 1, Press 2, Press 3 to choose a character.
+3. Exploring the world: move around with Arrow keys to walk around the building.
+4. When the enter prompt appear as the character is near door entrance. Press “ENTER” to go inside the store.
 
 Level Selection:
 
@@ -53,7 +53,7 @@ Inside the Store:
 - Read the question in the speech bubble.
 - Click the correct words in order to build the sentence.
 - Words move around the screen.
-- Some words are distractors
+- Some words are distractors.
 
 Distractions
 
@@ -62,8 +62,8 @@ Distractions
 
 Failure Conditions
 
-- Clicking the wrong word
-- Timer running out
+- Clicking the wrong word.
+- Timer running out.
 - If you fail, you can retry or return to the world map.
 
 ---
