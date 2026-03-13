@@ -1,7 +1,7 @@
 let levels = [
   {
     name: "Pixel Thread", // Clothing store
-    bgImg: "assets/Images/clothingStore.png", // [17]
+    bgImg: "Assets/Images/clothingStore.png", // [17]
     subLevels: [
       {
         sentence: "Do you have black sunglasses", // level 1 sunglasses
@@ -29,7 +29,7 @@ let levels = [
 
   {
     name: "Pixel Pages", //book store
-    bgImg: "assets/Images/bookStore.png", //[21]
+    bgImg: "Assets/Images/bookStore.png", //[21]
     subLevels: [
       {
         sentence: "Can you recommend a mystery book", // Book 1:Novel
@@ -57,7 +57,7 @@ let levels = [
 
   {
     name: "Bloom & Pixel", //flower store
-    bgImg: "assets/Images/flowerStore.png", //[20]
+    bgImg: "Assets/Images/flowerStore.png", //[20]
     subLevels: [
       {
         sentence: "Can I get roses", // roses
@@ -85,7 +85,7 @@ let levels = [
 
   {
     name: "Pixel Coffee", //coffee shop
-    bgImg: "assets/Images/coffeeStore.png", // [18][19]
+    bgImg: "Assets/Images/coffeeStore.png", // [18][19]
     subLevels: [
       {
         sentence: "I would like a chocolate croissant", // croissant
