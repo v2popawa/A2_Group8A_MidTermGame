@@ -22,7 +22,7 @@ function preload() {
   for (let lvl of levels) {
     levelBackgrounds.push(loadImage(lvl.bgImg));
   }
-  worldimg = loadImage("assets/worldBackground.png"); //[1]
+  worldimg = loadImage("Images/worldBackground.png"); //[1]
   startimg = loadImage("assets/introImage.png"); //
   characterimg = loadImage("assets/characterBackground.png"); //
   tryagainimg = loadImage("assets/tryagainScreen.png");
