@@ -23,9 +23,9 @@ function preload() {
     levelBackgrounds.push(loadImage(lvl.bgImg));
   }
   worldimg = loadImage("Assets/Images/worldbackground.png"); //[1]
-  startimg = loadImage("Assets/Images/introImage.png"); //
-  characterimg = loadImage("Assets/Images/characterBackground.png"); //
-  tryagainimg = loadImage("Assets/Images/tryagainScreen.png");
+  startimg = loadImage("Assets/Images/introimage.png"); //
+  characterimg = loadImage("Assets/Images/characterbackground.png"); //
+  tryagainimg = loadImage("Assets/Images/tryagainscreen.png");
 
   playerImages[0] = loadImage("Assets/Images/player1.png"); //
   playerImages[1] = loadImage("Assets/Images/player2.png"); //
