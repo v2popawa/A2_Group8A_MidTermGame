@@ -114,7 +114,7 @@ function drawLevelSelect() {
       let centerX = (rect.x1 + rect.x2) / 2;
       let centerY = (rect.y1 + rect.y2) / 2;
 
-      image(lockImg, centerX - 75, centerY - 65, 150, 130);
+      image(lockimg, centerX - 75, centerY - 65, 150, 130);
     }
   }
 }
