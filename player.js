@@ -13,11 +13,11 @@ class Player {
     this.type = type;
 
     if (type === "boy") {
-      this.img = playerImages[0];
+      this.img = playerimages[0];
     } else if (type === "girl") {
-      this.img = playerImages[1];
+      this.img = playerimages[1];
     } else if (type === "unisex") {
-      this.img = playerImages[2];
+      this.img = playerimages[2];
     }
   }
 
