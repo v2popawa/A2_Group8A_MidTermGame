@@ -4,10 +4,10 @@ let worldimg;
 let startimg;
 let characterimg;
 let tryagainimg;
-let playerImages = [];
+let playerimages = [];
 let showInstructions = true;
 let levelSelectBackgrounds = [];
-let lockImg;
+let lockimg;
 
 function setup() {
   noStroke();
@@ -27,16 +27,16 @@ function preload() {
   characterimg = loadImage("assets/images/characterbackground.png"); //
   tryagainimg = loadImage("assets/images/tryagainscreen.png");
 
-  playerImages[0] = loadImage("assets/images/player1.png"); //
-  playerImages[1] = loadImage("assets/images/player2.png"); //
-  playerImages[2] = loadImage("assets/images/player3.png"); //
+  playerimages[0] = loadImage("assets/images/player1.png"); //
+  playerimages[1] = loadImage("assets/images/player2.png"); //
+  playerimages[2] = loadImage("assets/images/player3.png"); //
 
   levelSelectBackgrounds.push(loadImage("assets/images/clothinglevels.png")); //
   levelSelectBackgrounds.push(loadImage("assets/images/booklevels.png")); //
   levelSelectBackgrounds.push(loadImage("assets/images/flowerlevels.png")); //
   levelSelectBackgrounds.push(loadImage("assets/images/coffeelevels.png")); //
 
-  lockImg = loadImage("assets/images/pixellock.png"); //
+  lockimg = loadImage("assets/images/pixellock.png"); //
 }
 
 function draw() {
