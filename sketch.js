@@ -36,7 +36,7 @@ function preload() {
   levelSelectBackgrounds.push(loadImage("Assets/Images/flowerlevels.png")); //
   levelSelectBackgrounds.push(loadImage("Assets/Images/coffeelevels.png")); //
 
-  lockImg = loadImage("Assets/Images/pixel_lock.png"); //
+  lockImg = loadImage("Assets/Images/pixellock.png"); //
 }
 
 function draw() {
